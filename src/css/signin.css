@@ -1,0 +1,79 @@
+body {
+  background-color: #e0f7fa; /* 배경을 시원한 색상으로 설정 */
+  font-family: "Arial", sans-serif; /* 깔끔한 글꼴 설정 */
+}
+
+.container.fridge-signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 170px); /* 헤더 높이를 고려한 최소 높이 */
+  margin-top: 170px; /* 헤더 높이를 고려한 상단 마진 */
+}
+
+.signin-form-wrapper {
+  background: #ffffff; /* 밝은 배경 */
+  border-radius: 20px; /* 모서리를 둥글게 */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 강한 그림자 효과 */
+  padding: 30px; /* 내부 여백 */
+  width: 100%;
+  max-width: 500px; /* 최대 너비 */
+  border: 1px solid #ddd; /* 약간의 테두리 */
+}
+
+.signin-form-wrapper h2 {
+  color: #333; /* 제목의 어두운 색상 */
+  font-weight: bold; /* 굵은 글꼴 */
+  text-align: center; /* 중앙 정렬 */
+}
+
+.signin-form-wrapper .form-label {
+  color: #555; /* 라벨의 중간 회색 색상 */
+}
+
+.signin-form-wrapper .form-control {
+  border: 2px solid #ccc; /* 연한 회색 테두리 */
+  border-radius: 10px; /* 입력란의 모서리를 둥글게 */
+  padding: 10px; /* 입력란 내부 여백 */
+  transition: border-color 0.3s; /* 테두리 색상 변화 */
+}
+
+.signin-form-wrapper .form-control:focus {
+  border-color: #81c408; /* 포커스 시 테두리 색상 */
+}
+
+.signin-form-wrapper .btn-primary {
+  background-color: #81c408; /* 기본 버튼 색상 */
+  border-color: #81c408; /* 기본 버튼 테두리 색상 */
+  border-radius: 10px; /* 버튼의 모서리를 둥글게 */
+  padding: 10px 20px; /* 버튼의 내부 여백 */
+  transition: background-color 0.3s; /* 배경색 변화 */
+}
+
+.signin-form-wrapper .btn-primary:hover {
+  background-color: #93e103; /* 호버 시 버튼 색상 */
+}
+
+.signin-form-wrapper .btn-secondary {
+  background-color: #c3c4c6fb; /* 보조 버튼 색상 */
+  border-color: #c3c4c6fb; /* 보조 버튼 테두리 색상 */
+  border-radius: 10px; /* 버튼의 모서리를 둥글게 */
+  padding: 10px 20px; /* 버튼의 내부 여백 */
+  transition: background-color 0.3s; /* 배경색 변화 */
+}
+
+.signin-form-wrapper .btn-secondary:hover {
+  background-color: #495057a0; /* 호버 시 보조 버튼 색상 */
+}
+
+.signin-form-wrapper .text-end {
+  text-align: right; /* 버튼을 오른쪽 정렬 */
+}
+
+.input-group button {
+  border-radius: 0 10px 10px 0; /* 버튼의 오른쪽 모서리만 둥글게 */
+}
+
+.input-group .form-control {
+  border-radius: 10px 0 0 10px; /* 입력란의 왼쪽 모서리만 둥글게 */
+}

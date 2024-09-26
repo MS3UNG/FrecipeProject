@@ -1,0 +1,23 @@
+.unique-search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.unique-search-input {
+    padding: 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem 0 0 0.25rem;
+    flex-grow: 1;
+}
+
+.unique-search-icon {
+    padding: 0.75rem;
+    border: 1px solid #ced4da;
+    border-left: 0;
+    border-radius: 0 0.25rem 0.25rem 0;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

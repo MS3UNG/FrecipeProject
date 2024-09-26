@@ -1,0 +1,16 @@
+.form-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.form-group.post {
+  flex-grow: 2;
+  /* margin-right: 10px; */
+}
+
+.form-group select {
+  flex-grow: 1;
+  width: 150px; /* 말머리 선택의 너비를 작게 설정 */
+  margin-right: 10px;
+}

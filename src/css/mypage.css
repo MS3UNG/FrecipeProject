@@ -1,0 +1,17 @@
+/* 헤더 높이 고려 */
+.container.mypage-container {
+  padding: 20px;
+  margin-top: 100px; /* 헤더 높이에 따라 조정 */
+}
+
+.mypage-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.mypage-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
